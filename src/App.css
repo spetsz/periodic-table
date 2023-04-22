@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto+Mono:wght@100&family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono";
+    
+}
+
+body{
+    background-color: ivory;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.element{
+    width : 3vw;
+    height : 40px;
+    display: flex;
+    align-items: center;
+    margin: 1px; 
+    background-color: #f1ebeb;
+    border-radius: 3px;
+}
+
+.element:hover{
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.element[display="card"]{
+    width: 200px !important;
+    height: 200px !important;
+    font-size: 60px;
+    border-radius: 15px;
+    box-shadow: 8px 9px 20px -4px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+.element[display="card"] .element-name{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.element[family="diatomic nonmetal"]{
+    background-color: #FDC7FE;
+    color : #632e64
+}
+
+.element[family="noble gas"]{
+    background-color: #CBECFB;
+    color : #184a61;
+}
+
+.element[family="alkali metal"]{
+    background-color: #FCD0AC;
+    color : #492c15
+}
+
+.element[family="alkaline earth metal"]{
+    background-color: #FFE5AA;
+    color : #533f11
+}
+
+.element[family="metalloid"]{
+    background-color: #AFFFB5;
+    color : #062e09
+}
+
+.element[family="polyatomic nonmetal"]{
+    background-color: #D0C1FF;
+    color : #170a3f
+}
+
+.element[family="post-transition metal"]{
+    background-color: #FFFAA9;
+    color : #44410d
+}
+
+.element[family="transition metal"] {
+    background-color: #F0FEAB;
+    color : #3c460d
+}
+
+.element[family="lanthanide"] {
+    background-color: #DDFDAA;
+    color : #293b0c
+}
+
+.element[family="actinide"] {
+    background-color: #CAFEA9;
+    color : #193109
+}
+
+
+
+button[family="diatomic nonmetal"]{
+    background-color: #FDC7FE;
+    color : #632e64
+}
+
+button[family="noble gas"]{
+    background-color: #CBECFB;
+    color : #184a61;
+}
+
+button[family="alkali metal"]{
+    background-color: #FCD0AC;
+    color : #492c15
+}
+
+button[family="alkaline earth metal"]{
+    background-color: #FFE5AA;
+    color : #533f11
+}
+
+button[family="metalloid"]{
+    background-color: #AFFFB5;
+    color : #062e09
+}
+
+button[family="polyatomic nonmetal"]{
+    background-color: #D0C1FF;
+    color : #170a3f
+}
+
+button[family="post-transition metal"]{
+    background-color: #FFFAA9;
+    color : #44410d
+}
+
+button[family="transition metal"] {
+    background-color: #F0FEAB;
+    color : #3c460d
+}
+
+button[family="lanthanide"] {
+    background-color: #DDFDAA;
+    color : #293b0c
+}
+
+button[family="actinide"] {
+    background-color: #CAFEA9;
+    color : #193109
+}
+
+
+.element-name{
+    font-size: 6px;
+}
+
+
+.my-10{
+    margin-top: 10px;
+}
+
+
+
+
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.d-grid{
+    display: grid;
+    grid-template-columns:repeat(18 , 1fr);
+    grid-template-rows: repeat(7 , 1fr);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.h-100{
+    height: 100%;
+}
+
+.w-60{
+    width : 60vw;
+}
+
+.w-100{
+    width : 100vw;
+}
+
+
+.w-35{
+    width : 35vw;
+}
+
+.h-center{
+    margin: 0 auto;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+
+
+.hidden{
+    overflow: hidden;
+   
+}
+
+.overflow{
+    overflow: scroll;
+    height: 50px;
+}
+
+
+.card{
+    color : black;
+    height: 70vh;
+    padding : 15px;
+    font-family: "Space Grotesk";
+    overflow-y: scroll;
+    border-left: 1px solid black;
+    
+}
+
+
+
+.label{
+    font-family: bold;
+}
+
+.nav{
+    background-color: #e9e7e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-secondary{
+    color : #F6934D;
+    font-weight: bolder;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+img[alt="logo"]{
+    width: 50px;
+}
+
+input{
+    width: 25vw;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button[family]{
+   width: 80px;
+   
+}
+
+
+.row{
+    border: 1px solid black;
+    background-color: ivory;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    body{
+        width:100vh;
+        overflow: hidden;
+    }
+
+    .nav{
+        width: 100%;
+       
+    }
+
+        
+    button[family]{
+        width: 9%;
+        font-size: small;
+        word-wrap: break-word;
+    }
+    
+
+   
+   
+}
+
